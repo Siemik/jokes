@@ -1,0 +1,32 @@
+body {
+  background: url(https://wallpaperplay.com/walls/full/6/d/b/231472.jpg);
+  background-size: cover;
+}
+.container {
+  width: 900px;
+  margin: auto;
+  margin-top:100px;
+  font-family: 'Alfa Slab One', cursive;
+}
+#get-joke {
+  text-align: center;
+  background-color: #edd940;
+  height: 60px;
+  width: 110px;
+  color: #31343b;
+  border: 1px solid #31343b;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Alfa Slab One', cursive;
+}
+#get-joke:hover {
+  color: black;
+}
+#joke {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+  padding: 20px;
+  color: white;
+}

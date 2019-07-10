@@ -14,6 +14,7 @@ function getJoke() {
   xhr.addEventListener('load', function(){
     var response = JSON.parse(xhr.response);
     paragraph.innerHTML = response.value.joke;
+    paragraph.innerHTML += '<span>🤣🤣🤣</span>';
   });
   xhr.send();
 }
